@@ -1,0 +1,57 @@
+header.page-header {
+    color: coral;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Hoefler Text", Georgia, "Lucida Bright", Cambria, Times, "Times New Roman", serif;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background: #fcfcfc;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[role="banner"] {
+    background: #575757;
+    overflow: hidden;
+    margin: 0;
+    padding: 10px 0 6px;
+    position: relative;
+    z-index: 0;
+}
+
+[role="banner"] .logo {
+    font-size: 40px;
+    font-size: 4rem;
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    color: #FFF;
+    display: block;
+    float: left;
+    font-weight: 700;
+    margin: 10px;
+    overflow: hidden;
+    width: 400px;
+    height: 60px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: transparent;
+}

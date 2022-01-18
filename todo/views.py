@@ -1,7 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def hello(requst) :
-    return HttpResponse("Hello world!!")
+
+def hello(request) :
     
+    return render(request, 'todosite/todo.html')
+
+
+
+
 # Create your views here.
